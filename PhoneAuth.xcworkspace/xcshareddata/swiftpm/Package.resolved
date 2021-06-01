@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke.git",
+        "state": {
+          "branch": null,
+          "revision": "8e0f42d1d9f30d816f3c565aa6193d9363325157",
+          "version": "9.6.0"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+          "version": "4.0.4"
+        }
+      },
+      {
+        "package": "StreamChat",
+        "repositoryURL": "https://github.com/GetStream/stream-chat-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "dbfea0b81a380b08226e0fcb3088f3c7669a5123",
+          "version": "3.1.10"
+        }
+      },
+      {
+        "package": "SwiftyGif",
+        "repositoryURL": "https://github.com/kirualex/SwiftyGif.git",
+        "state": {
+          "branch": null,
+          "revision": "0cd770feed5807d9fd4fa8df5ad74b56b814b0c8",
+          "version": "5.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

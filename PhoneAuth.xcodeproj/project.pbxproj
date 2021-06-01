@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EB80E882655411F006CAF66 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB80E872655411F006CAF66 /* StreamChat */; };
+		7EB80E8A265541AD006CAF66 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB80E89265541AD006CAF66 /* Credential.swift */; };
+		7EB80E8C26554735006CAF66 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB80E8B26554735006CAF66 /* LandingPage.swift */; };
+		7EB80E8E26554767006CAF66 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB80E8D26554767006CAF66 /* Category.swift */; };
+		7EB80E902655478A006CAF66 /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB80E8F2655478A006CAF66 /* Popular.swift */; };
+		7EB80E92265547B5006CAF66 /* PopularItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB80E91265547B5006CAF66 /* PopularItemRowView.swift */; };
+		7EB80E94265547D0006CAF66 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB80E93265547D0006CAF66 /* TabBar.swift */; };
+		7EDDAEC12654206500C7067B /* PhoneAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAEC02654206500C7067B /* PhoneAuthApp.swift */; };
+		7EDDAEC32654206500C7067B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAEC22654206500C7067B /* ContentView.swift */; };
+		7EDDAEC52654206600C7067B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDDAEC42654206600C7067B /* Assets.xcassets */; };
+		7EDDAEC82654206600C7067B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDDAEC72654206600C7067B /* Preview Assets.xcassets */; };
+		7EDDAED2265420BC00C7067B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAED1265420BC00C7067B /* Login.swift */; };
+		7EDDAED42654233700C7067B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAED32654233700C7067B /* LoginViewModel.swift */; };
+		7EDDAED72654291900C7067B /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAED62654291900C7067B /* Countries.swift */; };
+		7EDDAED9265435A400C7067B /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAED8265435A400C7067B /* Verification.swift */; };
+		7EDDAEDB26543EF500C7067B /* CostumNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAEDA26543EF500C7067B /* CostumNumberPad.swift */; };
+		7EDDAEDD265446B900C7067B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EDDAEDC265446B800C7067B /* GoogleService-Info.plist */; };
+		7EDDAEDF26544B5200C7067B /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAEDE26544B5200C7067B /* AlertView.swift */; };
+		7EDDAEE1265453AC00C7067B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDAEE0265453AC00C7067B /* Home.swift */; };
+		848D39DEEBE38F521BA5E2C8 /* Pods_PhoneAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDCA92E84ACD8B7905FF0F4 /* Pods_PhoneAuth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C316379CCC224130D7CBC2D /* Pods-PhoneAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.debug.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB80E89265541AD006CAF66 /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		7EB80E8B26554735006CAF66 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		7EB80E8D26554767006CAF66 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7EB80E8F2655478A006CAF66 /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
+		7EB80E91265547B5006CAF66 /* PopularItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularItemRowView.swift; sourceTree = "<group>"; };
+		7EB80E93265547D0006CAF66 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7EDDAEBD2654206500C7067B /* PhoneAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDDAEC02654206500C7067B /* PhoneAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthApp.swift; sourceTree = "<group>"; };
+		7EDDAEC22654206500C7067B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EDDAEC42654206600C7067B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EDDAEC72654206600C7067B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EDDAEC92654206600C7067B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDDAED1265420BC00C7067B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		7EDDAED32654233700C7067B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7EDDAED62654291900C7067B /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		7EDDAED8265435A400C7067B /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		7EDDAEDA26543EF500C7067B /* CostumNumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumNumberPad.swift; sourceTree = "<group>"; };
+		7EDDAEDC265446B800C7067B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EDDAEDE26544B5200C7067B /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		7EDDAEE0265453AC00C7067B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BBDCFFBBD8586CCB15E3D13F /* Pods-PhoneAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.release.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.release.xcconfig"; sourceTree = "<group>"; };
+		EBDCA92E84ACD8B7905FF0F4 /* Pods_PhoneAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDDAEBA2654206500C7067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB80E882655411F006CAF66 /* StreamChat in Frameworks */,
+				848D39DEEBE38F521BA5E2C8 /* Pods_PhoneAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0547FBC382224FAF17AE7514 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C316379CCC224130D7CBC2D /* Pods-PhoneAuth.debug.xcconfig */,
+				BBDCFFBBD8586CCB15E3D13F /* Pods-PhoneAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		05A1181DB235DDE5940DFC79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBDCA92E84ACD8B7905FF0F4 /* Pods_PhoneAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EDDAEB42654206500C7067B = {
+			isa = PBXGroup;
+			children = (
+				7EDDAEBF2654206500C7067B /* PhoneAuth */,
+				7EDDAEBE2654206500C7067B /* Products */,
+				0547FBC382224FAF17AE7514 /* Pods */,
+				05A1181DB235DDE5940DFC79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDDAEBE2654206500C7067B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDDAEBD2654206500C7067B /* PhoneAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDDAEBF2654206500C7067B /* PhoneAuth */ = {
+			isa = PBXGroup;
+			children = (
+				7EDDAEDC265446B800C7067B /* GoogleService-Info.plist */,
+				7EDDAED5265428F700C7067B /* Model */,
+				7EDDAED02654209D00C7067B /* ViewModel */,
+				7EDDAECF2654209800C7067B /* View */,
+				7EDDAEC02654206500C7067B /* PhoneAuthApp.swift */,
+				7EDDAEC22654206500C7067B /* ContentView.swift */,
+				7EDDAEC42654206600C7067B /* Assets.xcassets */,
+				7EDDAEC92654206600C7067B /* Info.plist */,
+				7EDDAEC62654206600C7067B /* Preview Content */,
+				7EB80E89265541AD006CAF66 /* Credential.swift */,
+			);
+			path = PhoneAuth;
+			sourceTree = "<group>";
+		};
+		7EDDAEC62654206600C7067B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7EDDAEC72654206600C7067B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EDDAECF2654209800C7067B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EDDAED1265420BC00C7067B /* Login.swift */,
+				7EDDAED8265435A400C7067B /* Verification.swift */,
+				7EDDAEDA26543EF500C7067B /* CostumNumberPad.swift */,
+				7EDDAEDE26544B5200C7067B /* AlertView.swift */,
+				7EDDAEE0265453AC00C7067B /* Home.swift */,
+				7EB80E8B26554735006CAF66 /* LandingPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EDDAED02654209D00C7067B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7EDDAED32654233700C7067B /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7EDDAED5265428F700C7067B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EDDAED62654291900C7067B /* Countries.swift */,
+				7EB80E8D26554767006CAF66 /* Category.swift */,
+				7EB80E8F2655478A006CAF66 /* Popular.swift */,
+				7EB80E91265547B5006CAF66 /* PopularItemRowView.swift */,
+				7EB80E93265547D0006CAF66 /* TabBar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDDAEBC2654206500C7067B /* PhoneAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDDAECC2654206600C7067B /* Build configuration list for PBXNativeTarget "PhoneAuth" */;
+			buildPhases = (
+				924EBD846768176BDE6C8B26 /* [CP] Check Pods Manifest.lock */,
+				7EDDAEB92654206500C7067B /* Sources */,
+				7EDDAEBA2654206500C7067B /* Frameworks */,
+				7EDDAEBB2654206500C7067B /* Resources */,
+				B372C0C1F5377B1B408F5439 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAuth;
+			packageProductDependencies = (
+				7EB80E872655411F006CAF66 /* StreamChat */,
+			);
+			productName = PhoneAuth;
+			productReference = 7EDDAEBD2654206500C7067B /* PhoneAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDDAEB52654206500C7067B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7EDDAEBC2654206500C7067B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7EDDAEB82654206500C7067B /* Build configuration list for PBXProject "PhoneAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EDDAEB42654206500C7067B;
+			packageReferences = (
+				7EB80E862655411F006CAF66 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
+			productRefGroup = 7EDDAEBE2654206500C7067B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDDAEBC2654206500C7067B /* PhoneAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDDAEBB2654206500C7067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDDAEC82654206600C7067B /* Preview Assets.xcassets in Resources */,
+				7EDDAEC52654206600C7067B /* Assets.xcassets in Resources */,
+				7EDDAEDD265446B900C7067B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		924EBD846768176BDE6C8B26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B372C0C1F5377B1B408F5439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDDAEB92654206500C7067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDDAED9265435A400C7067B /* Verification.swift in Sources */,
+				7EDDAED42654233700C7067B /* LoginViewModel.swift in Sources */,
+				7EB80E8A265541AD006CAF66 /* Credential.swift in Sources */,
+				7EDDAED2265420BC00C7067B /* Login.swift in Sources */,
+				7EB80E902655478A006CAF66 /* Popular.swift in Sources */,
+				7EDDAEC32654206500C7067B /* ContentView.swift in Sources */,
+				7EDDAEE1265453AC00C7067B /* Home.swift in Sources */,
+				7EDDAED72654291900C7067B /* Countries.swift in Sources */,
+				7EB80E8C26554735006CAF66 /* LandingPage.swift in Sources */,
+				7EB80E94265547D0006CAF66 /* TabBar.swift in Sources */,
+				7EDDAEDF26544B5200C7067B /* AlertView.swift in Sources */,
+				7EDDAEC12654206500C7067B /* PhoneAuthApp.swift in Sources */,
+				7EDDAEDB26543EF500C7067B /* CostumNumberPad.swift in Sources */,
+				7EB80E92265547B5006CAF66 /* PopularItemRowView.swift in Sources */,
+				7EB80E8E26554767006CAF66 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7EDDAECA2654206600C7067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EDDAECB2654206600C7067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDDAECD2654206600C7067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C316379CCC224130D7CBC2D /* Pods-PhoneAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = 5J7VZ84SAT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matamata.news.PhoneAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EDDAECE2654206600C7067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDCFFBBD8586CCB15E3D13F /* Pods-PhoneAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = 5J7VZ84SAT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matamata.news.PhoneAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDDAEB82654206500C7067B /* Build configuration list for PBXProject "PhoneAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDDAECA2654206600C7067B /* Debug */,
+				7EDDAECB2654206600C7067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDDAECC2654206600C7067B /* Build configuration list for PBXNativeTarget "PhoneAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDDAECD2654206600C7067B /* Debug */,
+				7EDDAECE2654206600C7067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EB80E862655411F006CAF66 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7EB80E872655411F006CAF66 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB80E862655411F006CAF66 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7EDDAEB52654206500C7067B /* Project object */;
+}
